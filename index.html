@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoAgro: Produzir e Preservar</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🌱 EcoAgro: Produzir e Preservar 💧</h1>
+    <p>Unindo agricultura e preservação ambiental através do uso consciente da água.</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre o Tema</a></li>
+        <li><a href="#problema">Problema Ambiental</a></li>
+        <li><a href="#solucoes">Soluções</a></li>
+        <li><a href="#secao-quiz">Quiz</a></li>
+        <li><a href="#conclusao">Conclusão</a></li>
+    </ul>
+</nav>
+
+<div class="acessibilidade">
+    <button onclick="aumentarFonte()">A+ Aumentar Fonte</button>
+    <button onclick="diminuirFonte()">A- Diminuir Fonte</button>
+    <button onclick="alternarContraste()">Alto Contraste</button>
+</div>
+
+<section id="inicio">
+    <h2>1. Página Inicial</h2>
+    <p>
+        Bem-vindo ao projeto <strong>EcoAgro: Produzir e Preservar</strong>!
+        Nosso objetivo é mostrar a importância do uso consciente da água na agricultura,
+        incentivando práticas sustentáveis que garantam a produção de alimentos sem comprometer
+        os recursos naturais das futuras gerações.
+    </p>
+
+    <div class="imagem" aria-label="Ilustração de agricultura sustentável">
+        🌾 Agricultura Sustentável 💧
+    </div>
+</section>
+
+<section id="sobre">
+    <h2>2. Sobre o Tema</h2>
+    <p>
+        A água é um recurso indispensável para a agricultura, responsável pela produção de alimentos
+        que abastecem a população. Porém, seu uso inadequado pode causar desperdícios e reduzir a
+        disponibilidade desse recurso para o futuro.
+    </p>
+    <p>
+        O uso consciente envolve técnicas como irrigação eficiente, reaproveitamento de água e
+        monitoramento do consumo, promovendo uma agricultura mais sustentável.
+    </p>
+</section>
+
+<section id="problema">
+    <h2>3. Problema Ambiental</h2>
+    <p>
+        O desperdício de água na agricultura é um dos grandes desafios ambientais da atualidade.
+        Sistemas de irrigação ineficientes, vazamentos e o uso excessivo comprometem rios,
+        lagos e lençóis freáticos.
+    </p>
+    <p>
+        Além disso, as mudanças climáticas tornam a preservação dos recursos hídricos ainda mais
+        importante para garantir a segurança alimentar e o equilíbrio ambiental.
+    </p>
+</section>
+
+<section id="solucoes">
+    <h2>4. Soluções Sustentáveis</h2>
+
+    <ul>
+        <li>✔ Utilização de irrigação por gotejamento.</li>
+        <li>✔ Captação e reaproveitamento da água da chuva.</li>
+        <li>✔ Monitoramento da umidade do solo.</li>
+        <li>✔ Manutenção periódica dos sistemas de irrigação.</li>
+        <li>✔ Educação ambiental e conscientização dos produtores.</li>
+    </ul>
+
+    <div class="imagem" aria-label="Imagem representando economia de água no campo">
+        💦 Economia de Água no Campo 🌱
+    </div>
+</section>
+
+<section id="secao-quiz" class="quiz-container">
+    <h2>5. Quiz sobre Sustentabilidade</h2>
+
+    <div class="pergunta">
+        <p>1. Qual é a principal importância da água na agricultura?</p>
+        <label><input type="radio" name="q1" value="1"> Produzir alimentos.</label>
+        <label><input type="radio" name="q1" value="0"> Apenas lavar equipamentos.</label>
+    </div>
+
+    <div class="pergunta">
+        <p>2. Qual técnica ajuda a economizar água?</p>
+        <label><input type="radio" name="q2" value="1"> Irrigação por gotejamento.</label>
+        <label><input type="radio" name="q2" value="0"> Deixar mangueiras abertas.</label>
+    </div>
+
+    <div class="pergunta">
+        <p>3. Reaproveitar a água da chuva é uma prática sustentável?</p>
+        <label><input type="radio" name="q3" value="1"> Sim.</label>
+        <label><input type="radio" name="q3" value="0"> Não.</label>
+    </div>
+
+    <button id="btnQuiz" onclick="corrigirQuiz()">Ver Resultado</button>
+    <div id="resultado"></div>
+</section>
+
+<section id="conclusao">
+    <h2>6. Conclusão</h2>
+    <p>
+        A preservação da água é fundamental para garantir uma agricultura eficiente e sustentável.
+        Pequenas atitudes podem reduzir o desperdício e proteger os recursos naturais para as futuras gerações.
+    </p>
+    <p>
+        O projeto <strong>EcoAgro: Produzir e Preservar</strong> busca conscientizar estudantes,
+        agricultores e toda a comunidade sobre a importância de produzir alimentos de forma responsável,
+        unindo desenvolvimento e preservação ambiental.
+    </p>
+</section>
+
+<footer>
+    <p><strong>EcoAgro: Produzir e Preservar</strong> © 2026</p>
+    <p>Projeto educativo sobre sustentabilidade e uso consciente da água na agricultura.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
