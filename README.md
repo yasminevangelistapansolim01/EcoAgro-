@@ -1,4 +1,4 @@
-Você pode usar o conteúdo abaixo como o arquivo **`README.md`** do projeto.
+
 
 # 🌱 EcoAgro: Produzir e Preservar
 
@@ -68,13 +68,6 @@ A água é um dos recursos mais importantes para a produção agrícola. Seu uso
 
 O **EcoAgro: Produzir e Preservar** busca incentivar atitudes sustentáveis e mostrar que tecnologia, educação e consciência ambiental podem caminhar juntas para construir um futuro melhor.
 
----
-
-## 🚀 Como Executar
-
-1. Faça o download do projeto;
-2. Abra o arquivo `index.html` em qualquer navegador moderno;
-3. Navegue pelas seções do site e participe do quiz sobre sustentabilidade.
 
 ---
 
